@@ -20,6 +20,8 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client-01</module>
+        <module>Config-Server</module>
+        <module>Config-Client</module>
     </modules>
 
     <properties>

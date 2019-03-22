@@ -1,16 +1,16 @@
-package com.learning.eurekaserver;
+package com.learning.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableConfigServer
-@EnableEurekaServer
+@EnableEurekaClient
 @SpringBootApplication
-public class EurekaServerApplication {
+public class Config_Server_Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerApplication.class, args);
+        SpringApplication.run(Config_Server_Application.class, args);
     }
 }
